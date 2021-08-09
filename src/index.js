@@ -9,7 +9,7 @@ const port = 3000;
 app.use(express.static(path.join(__dirname, "public")));
 
 // HTTP logger
-app.use(morgan("combined"));
+// app.use(morgan("combined"));
 
 // Template engine
 app.engine(
